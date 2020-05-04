@@ -54,7 +54,7 @@ void Object_move(Object* self, Window* window){
         self->x=2*window->upperX - newX;
         self->xSpeed*=-1;
     }else{
-        self->x+=self->xSpeed;
+        self->x+=newX;
     }
     
     
