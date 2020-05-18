@@ -1,4 +1,10 @@
 #include<stdlib.h>
+#include<stdbool.h>
+typedef struct node ObjectListNode;
+typedef struct object Object;
+#include"Window.h"
+#include"Color.h"
+
 #include"Object.h"
 
 typedef struct node

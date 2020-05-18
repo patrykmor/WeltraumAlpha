@@ -14,3 +14,6 @@ Color* Color_create(int red, int green, int blue, int alpha){
     ret->alpha = alpha;
     return ret;
 }
+void Color_destroy(Color* self){
+    free(self);
+}
